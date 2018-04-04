@@ -15,6 +15,7 @@ public class Prime
 			if(a%i==0)
 			{
 				status=false;
+			
 			}
 		}
 		return status;
@@ -26,7 +27,7 @@ Prime p=new Prime();
 
 	if(p.test())
 	{
-		System.out.println( a+"is a prime");
+		System.out.println( a +"is a prime");
 	}
 	else
 		System.out.println(a + "is not a prime");
